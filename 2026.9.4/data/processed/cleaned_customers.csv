@@ -1,0 +1,8 @@
+﻿customer_id,name,email,phone,age,signup_date,city,status,amount,comment,needs_review
+001,Alice Zhang,alice@example.com,13800138000,28,2026-08-01,Beijing,active,1200.5,paid customer,False
+002,Bob Li,,13800138001,38,,Shanghai,inactive,0.0,invalid age and date,True
+003,Chen Wei,chen.wei@example.com,02155558888,38,2026-07-15,Shanghai,active,880.0,missing age,False
+004,Dana Wu,,,35,2026-08-15,Guangzhou,inactive,0.0,missing email and amount,True
+005,Evan Sun,evan.sun@example.org,13900000000,41,2026-08-20,Shenzhen,active,3500.0,mixed separators,False
+006,Fay Ma,fay.ma@example.org,13900000001,38,2026-08-22,Hangzhou,pending,42.0,underage lead,False
+007,Grace Hu,grace.hu@example.org,13900000002,65,,Beijing,inactive,0.0,bad date and blank amount,True

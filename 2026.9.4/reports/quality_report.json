@@ -1,0 +1,45 @@
+{
+  "input_rows": 8,
+  "input_columns": [
+    "customer_id",
+    "name",
+    "email",
+    "phone",
+    "age",
+    "signup_date",
+    "city",
+    "status",
+    "amount",
+    "comment"
+  ],
+  "actions": [
+    "normalized_column_names",
+    "trimmed_string_values",
+    "filled_missing_age_with_median_38",
+    "created_needs_review_flag"
+  ],
+  "invalid_counts": {
+    "exact_duplicate_rows_removed": 0,
+    "duplicate_customer_id_rows_removed": 1,
+    "invalid_email": 2,
+    "invalid_phone": 1,
+    "invalid_age": 3,
+    "invalid_signup_date": 2,
+    "invalid_amount": 3
+  },
+  "output_rows": 7,
+  "output_columns": [
+    "customer_id",
+    "name",
+    "email",
+    "phone",
+    "age",
+    "signup_date",
+    "city",
+    "status",
+    "amount",
+    "comment",
+    "needs_review"
+  ],
+  "review_rows": 3
+}

@@ -1,0 +1,15 @@
+2026-09-04 18:08:30 | INFO | Starting data-cleaning job
+2026-09-04 18:08:30 | INFO | Input: data\raw\dirty_customers.csv
+2026-09-04 18:08:30 | INFO | Wrote cleaned CSV: D:\git\2026.9.4\data\processed\cleaned_customers.csv
+2026-09-04 18:08:30 | INFO | Wrote quality report: D:\git\2026.9.4\reports\quality_report.json
+2026-09-04 18:08:30 | INFO | Finished data-cleaning job: 8 rows cleaned
+2026-09-04 18:10:21 | INFO | Starting data-cleaning job
+2026-09-04 18:10:21 | INFO | Input: data\raw\dirty_customers.csv
+2026-09-04 18:10:21 | INFO | Wrote cleaned CSV: D:\git\2026.9.4\data\processed\cleaned_customers.csv
+2026-09-04 18:10:21 | INFO | Wrote quality report: D:\git\2026.9.4\reports\quality_report.json
+2026-09-04 18:10:21 | INFO | Finished data-cleaning job: 7 rows cleaned
+2026-09-04 18:12:44 | INFO | Starting data-cleaning job
+2026-09-04 18:12:44 | INFO | Input: data\raw\dirty_customers.csv
+2026-09-04 18:12:44 | INFO | Wrote cleaned CSV: D:\git\2026.9.4\data\processed\cleaned_customers.csv
+2026-09-04 18:12:44 | INFO | Wrote quality report: D:\git\2026.9.4\reports\quality_report.json
+2026-09-04 18:12:44 | INFO | Finished data-cleaning job: 7 rows cleaned
